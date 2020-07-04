@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.cart_session{
+	margin-bottom:60px;
+}
+.bars {
+    margin-bottom: 1em;
+    margin-top:1em;
+    margin-left:1em;
+    color: #89379a;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.shopCart_container{
+	padding-left:3em;
+    padding-right:2em;
+	margin-bottom: 1em;
+	width:100%;
+	position:relative;
+}
+.shop_upload{
+	background:#999;
+	min-height:50px;
+	padding-top:6px;
+	border-radius: .25rem;
+	position:absolute;
+	bottom:-50px;
+}
+.Cart_table{
+	overflow-y:auto;
+	width:100%;
+	height:300px;
+}

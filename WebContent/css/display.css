@@ -1,0 +1,153 @@
+@charset "UTF-8";
+section {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.dis_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dis_scar_banner{
+	border:0px;
+	padding:0px;
+	margin:0px;
+	text-align: center;
+	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 600px;
+	width:100%;
+	font-size:15px;
+}
+.dis_scar_banner h2{
+	padding-top:80px;
+}
+.important-features .mb-100 {
+    margin-bottom: 117px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.align-self-center {
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.important-features .image.pr-30 {
+    padding-right: 30px;
+}
+.important-features .image img {
+	margin-left: 100px;
+    /*-webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 8px */
+    rgba(0, 0, 0, 0.15);
+}
+img {
+    max-width: 100%;
+}
+.important-features .content .section-heading {
+    text-align: left;
+    margin-bottom: 33px;
+}
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.important-features .content .section-heading .title {
+    margin-bottom: 20px;
+}
+.section-heading .title {
+	margin-top: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #131333;
+    margin-bottom: 12px;
+}
+.ben-list{
+	font-size:20px;
+	color:black;
+	text-decoration:underline;
+	text-decoration-color:gray;
+	margin-top: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #131333;
+    font-family: "Rubik", sans-serif;
+}
+h2 {
+    font-size: 52px;
+    line-height: 1.4444444444444444;
+}
+.section-heading .text {
+    font-size: 16px;
+    line-height: 26px;
+}
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.625;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+.important-features .content .feature-list li p {
+    position: relative;
+    padding-left: 30px;
+}
+.upload{
+	margin-top: 40px;
+	margin-left: 80px;
+}
+.benz-info{
+	margin-top: 40px;
+	margin-left: 80px;
+}
+.info_title{
+	font-size: 20px;
+	color:black;
+	letter-spacing: 1px;
+	font-family: 'Lato', sans-serif;
+}
+.info-text{
+	color:red;
+}
+table td{
+	width:200px;
+}

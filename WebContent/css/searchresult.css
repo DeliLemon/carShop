@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.container-ul{
+	font-size: 0; 
+	margin-top:30px;
+	margin-left:30px;
+	min-height:400px;
+}
+.container-ul li{
+	display: inline-block; 
+	font-size: 16px; 
+	text-align: center;
+	margin-right: 2.12766%;
+    width: 30%;
+    min-height: 280px;
+    margin-bottom: 50px;
+    padding: 20px;
+    transition: min-height .2s, box-shadow .5s;
+    border-bottom:5px;
+}
+.container-ul li:hover{
+	box-shadow: -1px 0px 7px 4px #999;
+}
+.search-container-input-button{
+	margin-top:10px;
+	width:100px;
+	border:0px;
+}

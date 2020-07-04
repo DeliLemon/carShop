@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.buy_container{
+	margin-top:2em;
+	margin-left:3em;
+	margin-right:3em;
+	margin-bottom:80px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	padding-left: 55px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	padding-right: 50px;
+	padding-top: 50px;
+	border-color:rgba(0,0,0,.125);
+	position:relative;
+}
+input{
+	border-style:none none none none; 
+	background-color:transparent;
+	width:1200px;
+}
+.buy_upload{
+	background:#999;
+	min-height:50px;
+	padding-top:6px;
+	border-radius: .25rem;
+	bottom:-50px;
+	width:auto;
