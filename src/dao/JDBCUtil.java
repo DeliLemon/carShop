@@ -9,7 +9,7 @@ public class JDBCUtil {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
-			// TODO ×Ô¶¯Éú³ÉµÄ catch ¿é
+			// TODO è‡ªåŠ¨ç”Ÿæˆçš„ catch å—
 			e.printStackTrace();
 		}
 	}
@@ -17,9 +17,9 @@ public class JDBCUtil {
 		Connection conn=null;
 		try {
 			conn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/mercedes?useSSL=false&serverTimezone=UTC&characterEncoding=utf8", "root", "root");
+					"jdbc:mysql://localhost:3306/mercedes?useSSL=false&serverTimezone=UTC&characterEncoding=utf8", "****", "****");
 		} catch (SQLException e) {
-			// TODO ×Ô¶¯Éú³ÉµÄ catch ¿é
+			// TODO è‡ªåŠ¨ç”Ÿæˆçš„ catch å—
 			e.printStackTrace();
 		}
 		return conn;
@@ -29,7 +29,7 @@ public class JDBCUtil {
 			try {
 				rs.close();
 			} catch (SQLException e) {
-				// TODO ×Ô¶¯Éú³ÉµÄ catch ¿é
+				// TODO è‡ªåŠ¨ç”Ÿæˆçš„ catch å—
 				e.printStackTrace();
 			}
 		}
